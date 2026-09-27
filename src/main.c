@@ -7,8 +7,8 @@
  * @date 26/08/2026
  *******************************************************************/
 
-#include <zephyr/kernel.h>
 #include "commands.h"
+#include <zephyr/kernel.h>
 
 int main(void)
 {
@@ -17,9 +17,9 @@ int main(void)
 	 */
 
 	dispatch_command("ping");
-    dispatch_command("led_on");
-    
-    dispatch_command("abrir_porta");
+	dispatch_command("led_on");
+
+	dispatch_command("abrir_porta");
 
 	return 0;
 }
