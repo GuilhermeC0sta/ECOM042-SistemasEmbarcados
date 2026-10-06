@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: Apache-2.0 */
+
 /*******************************************************************
  * @file board_io.c
  *
@@ -31,7 +33,8 @@ int io_init(void)
 
 int led_set(bool on)
 {
-	return gpio_pin_set_dt(&led, on);
+	/* Logical 1 is active. gpio_pin_set_dt takes an int, not bool. */
+	return gpio_pin_set_dt(&led, on ? 1 : 0);
 }
 
 int button_read(void)

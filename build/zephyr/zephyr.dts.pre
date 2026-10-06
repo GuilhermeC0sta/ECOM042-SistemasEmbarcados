@@ -292,7 +292,15 @@
 };
 # 0 "<command-line>" 2
 # 1 "/home/gui/ECOM042-SistemasEmbarcados/app.overlay" 1
-# 10 "/home/gui/ECOM042-SistemasEmbarcados/app.overlay"
+
+
+
+
+
+
+# 1 "/home/gui/zephyrproject/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h" 1 3 4
+# 8 "/home/gui/ECOM042-SistemasEmbarcados/app.overlay" 2
+
 / {
  aliases {
   sw0 = &sw0;
@@ -300,10 +308,10 @@
 
  buttons {
   compatible = "gpio-keys";
-  status = "disabled";
 
   sw0: button_0 {
    gpios = <&gpio0 1 (0 << 0)>;
+   zephyr,code = <11>;
   };
  };
 };

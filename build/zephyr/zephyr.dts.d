@@ -15,4 +15,5 @@ empty_file.o: /home/gui/zephyrproject/zephyr/misc/empty_file.c \
  /home/gui/zephyrproject/zephyr/include/zephyr/sys/util_internal_util_x2.h \
  /home/gui/zephyrproject/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
  /home/gui/zephyrproject/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
- /home/gui/ECOM042-SistemasEmbarcados/app.overlay
+ /home/gui/ECOM042-SistemasEmbarcados/app.overlay \
+ /home/gui/zephyrproject/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h
