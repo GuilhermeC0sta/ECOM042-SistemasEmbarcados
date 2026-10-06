@@ -1,0 +1,23 @@
+/*
+ * Botão da Atividade-03. O native_sim já declara o LED (alias led0) no pino 0
+ * de gpio0. Este overlay acrescenta o botão no pino 1, ativo em alto.
+ *
+ * O nó fica disabled de propósito: a descrição serve só para o devicetree.
+ * Quem configura o pino é o módulo board_io, pela API de GPIO. Com status
+ * okay, o driver input-gpio-keys assumiria o pino.
+ */
+
+/ {
+	aliases {
+		sw0 = &sw0;
+	};
+
+	buttons {
+		compatible = "gpio-keys";
+		status = "disabled";
+
+		sw0: button_0 {
+			gpios = <&gpio0 1 GPIO_ACTIVE_HIGH>;
+		};
+	};
+};

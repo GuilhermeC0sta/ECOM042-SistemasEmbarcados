@@ -1,0 +1,10 @@
+/home/gui/ECOM042-SistemasEmbarcados/build/zephyr/NSI/native/src/native_rtc.o: \
+ /home/gui/zephyrproject/zephyr/scripts/native_simulator//native/src/native_rtc.c \
+ /home/gui/zephyrproject/zephyr/scripts/native_simulator/common/src/include/nsi_tracing.h \
+ /home/gui/zephyrproject/zephyr/scripts/native_simulator/native/src/include/native_rtc.h \
+ /home/gui/zephyrproject/zephyr/scripts/native_simulator/common/src/include/nsi_hw_scheduler.h \
+ /home/gui/zephyrproject/zephyr/scripts/native_simulator/native/src/include/nsi_timer_model.h
+/home/gui/zephyrproject/zephyr/scripts/native_simulator/common/src/include/nsi_tracing.h:
+/home/gui/zephyrproject/zephyr/scripts/native_simulator/native/src/include/native_rtc.h:
+/home/gui/zephyrproject/zephyr/scripts/native_simulator/common/src/include/nsi_hw_scheduler.h:
+/home/gui/zephyrproject/zephyr/scripts/native_simulator/native/src/include/nsi_timer_model.h:
